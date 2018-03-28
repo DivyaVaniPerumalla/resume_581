@@ -1,0 +1,13 @@
+{
+"left":{
+  "photo":"res.png",
+  "name":"P.Divya Vani",
+  "email":"divyaperumalla&@gmail.com",
+  "phone":"9908655656",
+  "address":"kurnool"
+},
+"right":{
+  "Education Details":["B.tech","cse"],
+ "Technical skills":["c","java","html"]
+}
+}
