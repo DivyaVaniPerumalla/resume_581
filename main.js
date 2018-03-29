@@ -89,7 +89,7 @@ function skill(skills){
   skill_title.classList.add("tech_skills");
   skill_title.textContent="Technical skills:";
   skill_title.appendChild(document.createElement("HR"));
-  right.appendChild(skill_title);
+  right.appendChild(skill_title):
 // table creation
 var table=document.createElement("table");
 var row="";

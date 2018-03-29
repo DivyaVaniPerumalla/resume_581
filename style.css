@@ -29,13 +29,13 @@ margin: 5px;
 padding: 6px;
 flex:1;
 text-align: justify;
-color:#004;
+color:#000;
 /* background-image: url();/ */
 }
 .right{
 
   background-color: #8FBC8F;
-border: 5px solid #000;
+border: 5px solid #452;
 flex:1;
 text-align: justify;color: #000;
 }
