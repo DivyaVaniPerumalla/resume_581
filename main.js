@@ -79,7 +79,6 @@ ul.appendChild(li);
 e1.appendChild(ul);
 edu.appendChild(e1);
 console.log(edu);
-
 }
 }
 }
