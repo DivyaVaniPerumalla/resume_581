@@ -35,5 +35,20 @@
     "78%"
   ]
 }
-]
- }
+],
+
+   "skills":[
+     {
+       "name":"operating sysems",
+       "value":"windows,Linux "
+     },
+     {
+       "name":"programming languages",
+       "value":"C,C++,Java"
+     },
+     {
+       "name":"Web development",
+       "value":"HTML,python"
+     }
+   ]
+}

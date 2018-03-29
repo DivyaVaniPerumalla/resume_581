@@ -16,9 +16,8 @@ loadjson("data.json",function(text){
   let data=JSON.parse(text);
   console.log(data);
 basics(data.left);
-  let data1=JSON.parse(text);
-  console.log(data1);
-education(data1.education);
+  education(data.education);
+  skill(data.skills);
 })
 
 // for main div class calling
@@ -37,11 +36,8 @@ var left=document.createElement("div");
  left.appendChild(document.createElement("HR"));
 // appending to main div
 main.appendChild(left);
-
 var right=document.createElement("div");
 right.classList.add("right");
- right.setAttribute("id","right");
-
 main.appendChild(right);
 // education div start
 var edu=document.createElement("div");
@@ -82,8 +78,24 @@ for(j in Educa[i].college){
 ul.appendChild(li);
 e1.appendChild(ul);
 edu.appendChild(e1);
-console.log(edu)
+console.log(edu);
 
 }
 }
+}
+
+function skill(skills){
+  var skill_title=document.createElement("div");
+  skill_title.classList.add("tech_skills");
+  skill_title.textContent="Technical skills:";
+  skill_title.appendChild(document.createElement("HR"));
+  right.appendChild(skill_title);
+// table creation
+var table=document.createElement("table");
+var row="";
+for (var i = 0; i < skills.length; i++) {
+row +="<tr><td>"+skills[i].name+"</td><td>"+skills[i].value+"</td></tr>";
+}
+table.innerHTML=row;
+skill_title.appendChild(table);
 }
