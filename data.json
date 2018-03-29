@@ -6,8 +6,34 @@
   "phone":"9908655656",
   "address":"kurnool"
 },
-"right":{
-  "Education Details":["B.tech","cse"],
- "Technical skills":["c","java","html"]
+
+"education":[
+  {
+    "course":"B.tech(computer science and engineering)",
+    "college":[
+      "Ravindra College of Engineering for Women ",
+      "2015-2019",
+      "71%"
+    ]
+  },
+
+{
+
+  "course":"intermediate(mpc)",
+  "college":[
+    "st.joseph's jr college for girls",
+    "2013-2015",
+    "74%"
+  ]
+},
+{
+
+  "course":"SSC",
+  "college":[
+    "A.P.S.W.R.School",
+    "2012-2013",
+    "78%"
+  ]
 }
-}
+]
+ }
