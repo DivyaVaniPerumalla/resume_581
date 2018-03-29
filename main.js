@@ -19,10 +19,8 @@ basics(data.left);
   education(data.education);
   skill(data.skills);
 })
-
 // for main div class calling
 // var main=document.queryselector('.main');
-
 // for main div id calling
 var main=document.getElementById('main');
 // element creation
@@ -45,7 +43,6 @@ edu.classList.add("edu1");
 edu.textContent="Education Details:";
 edu.appendChild(document.createElement("HR"));
 right.appendChild(edu);
-
 function basics(leftside){
   // basics-constructor contains left object details of json file
 var image=document.createElement("img");
@@ -65,6 +62,13 @@ address.textContent=leftside.address;
  left.appendChild(address);
 console.log(left);
 }
+//right div creation
+//education div start
+var edu=document.createElement("div");
+edu.classList.add("edu1");
+edu.textContent="Educational Details:";
+edu.appendChild(document.createElement("HR"));
+right.appendChild(edu);
 function education(Educa){
 for(i in Educa)
 {
@@ -82,13 +86,12 @@ console.log(edu);
 }
 }
 }
-
 function skill(skills){
   var skill_title=document.createElement("div");
   skill_title.classList.add("tech_skills");
   skill_title.textContent="Technical skills:";
   skill_title.appendChild(document.createElement("HR"));
-  right.appendChild(skill_title):
+  right.appendChild(skill_title);
 // table creation
 var table=document.createElement("table");
 var row="";
